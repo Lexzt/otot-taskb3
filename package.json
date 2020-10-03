@@ -1,0 +1,25 @@
+{
+  "name": "otot-task-b1",
+  "version": "1.0.0",
+  "description": "CS3219 task b1",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.local.js",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jest": "^26.4.2",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7",
+    "supertest": "^5.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "mocha": "^8.1.3"
+  }
+}

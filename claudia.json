@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "otot-task-b1-executor",
+    "name": "otot-task-b1",
+    "region": "ap-southeast-1"
+  },
+  "api": {
+    "id": "4iatjhvedl"
+  }
+}
